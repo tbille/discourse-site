@@ -19,3 +19,14 @@ website:
   url: "http://example.com"
 ```
 
+## Generate site
+
+Make sure you have Jekyll install. Then:
+
+```
+python generate.py
+cd dist
+bundle exec jekyll serve
+```
+
+The site should be available on: http://127.0.0.1:4000/discourse-site/
