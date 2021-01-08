@@ -1,0 +1,7 @@
+title: TITLE
+baseurl: BASEURL
+url: URL
+
+theme: minima
+plugins:
+  - jekyll-feed

@@ -1,7 +1,0 @@
-title: Test
-baseurl: /discourse-site
-url: http://example.com
-
-theme: minima
-plugins:
-  - jekyll-feed
