@@ -14,7 +14,7 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          pip install -r requirements
+          pip install -r requirements.txt
           python generate.py
 
       - name: Deploy 🚀
