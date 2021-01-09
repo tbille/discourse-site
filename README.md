@@ -41,4 +41,4 @@ The site should be available on: http://127.0.0.1:4000/discourse-site/
 - [ ] Add CNAME for custom domains
 - [ ] Document how to use the project
 - [ ] Get more explanatories discourse topics
-- [ ] Replace links in the discourse topics with site links if link is part of the .site.yaml
+- [ ] Replace links in the discourse topics with site links if link is part of the `.site.yaml`
