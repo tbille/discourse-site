@@ -32,3 +32,13 @@ bundle exec jekyll serve
 ```
 
 The site should be available on: http://127.0.0.1:4000/discourse-site/
+
+# Next steps
+
+- [ ] Github action that checks if a topic was upated to deploy again
+- [ ] Custom Jekyll templating
+- [ ] Add navigation
+- [ ] Add CNAME for custom domains
+- [ ] Document how to use the project
+- [ ] Get more explanatories discourse topics
+- [ ] Replace links in the discourse topics with site links if link is part of the .site.yaml
