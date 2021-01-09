@@ -24,6 +24,8 @@ website:
 Make sure you have Jekyll install. Then:
 
 ```
+gem install bundler jekyll
+pip install -r requirements
 python generate.py
 cd dist
 bundle exec jekyll serve
