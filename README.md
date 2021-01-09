@@ -1,6 +1,15 @@
-# Build a website from discourse
+# Discourse static site generator
 
-Jekyll website generator from discourse.
+Generate static sites from [discourse](https://www.discourse.org/) topics. This project is a proof of concept.
+
+## How it works
+
+- Use a discourse topics to generate the content for your static site
+- The site gets generated with [Jekyll](https://jekyllrb.com/)
+- Easy to deploy with [GitHub Pages](https://pages.github.com/)
+- Manage your pages configuration via a yaml file
+
+## Light configuration
 
 The `.site.yaml` configuration file will generate a site from discourse topics.
 
@@ -35,6 +44,8 @@ The site should be available on: http://127.0.0.1:4000/discourse-site/
 
 # Next steps
 
+- [ ] Cleaner code for the generate script
+- [ ] Make the generate script a CLI
 - [ ] Github action that checks if a topic was upated to deploy again
 - [ ] Custom Jekyll templating
 - [ ] Add navigation
